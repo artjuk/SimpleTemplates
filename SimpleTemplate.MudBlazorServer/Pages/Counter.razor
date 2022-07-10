@@ -1,0 +1,18 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<MudButton Color="Color.Secondary" OnClick="IncrementCount" Variant="Variant.Filled">Click me</MudButton>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

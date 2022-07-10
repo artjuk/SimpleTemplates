@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Arturas",
+  "classifications": [
+    "MudBlazor", "Serilog"
+  ],
+  "identity": "SimpleTemplate.MudBlazorServer",
+  "name": "MudBlazor Server",
+  "description": "MudBlazor Server with serilog",
+  "shortName": "st-blazorserver",
+  "sourceName": "SimpleTemplate.MudBlazorServer",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "preferNameDirectory": true
+}
